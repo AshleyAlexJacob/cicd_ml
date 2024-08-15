@@ -22,7 +22,7 @@ def predict(data:Input):
         prediction  = model.predict(model_input)[0]
         return JSONResponse({"result": prediction}, 200)
     except Exception as e:
-        return JSONResponse({"error": f"{e}"}, 404)
+        return JSONResponse({"error": f"Internal Server {e}"}, 404)
     
 
 if __name__ == "__main__":
