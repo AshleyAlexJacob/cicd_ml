@@ -14,5 +14,5 @@ RUN chmod -R 777 /install.sh && /install.sh && rm /install.sh
 RUN /root/.cargo/bin/uv venv /home/packages/.venv
 
 RUN /root/.cargo/bin/uv pip install --no-cache --system  -r requirements.txt
-
+# run
 CMD ["python", "prediction.py"]
