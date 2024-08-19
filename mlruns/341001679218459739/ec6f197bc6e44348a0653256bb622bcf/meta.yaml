@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ashleyalexjacob/Data_Science/training/cicd_ml/mlruns/341001679218459739/ec6f197bc6e44348a0653256bb622bcf/artifacts
+end_time: 1723785403316
+entry_point_name: ''
+experiment_id: '341001679218459739'
+lifecycle_stage: active
+run_id: ec6f197bc6e44348a0653256bb622bcf
+run_name: sassy-shrike-518
+run_uuid: ec6f197bc6e44348a0653256bb622bcf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723785380548
+status: 3
+tags: []
+user_id: ashleyalexjacob

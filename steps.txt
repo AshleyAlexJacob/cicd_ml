@@ -7,3 +7,6 @@ docker run -p 8000:8000 -d --name predict app:latest
 ============================================
 
 Manage Jenkins - Global Tool -> Dockers
+
+
+mlflow server --backend-store-uri ./mlruns
